@@ -1,6 +1,6 @@
-salario= float(input("Digite aqui o salário do funcionário:R$"))
-salario_aumento= salario*15/100
-print(f"Referente ao valor do salário atual R${salario:.2f} o valor com aumento passará a ser R${salario+salario_aumento:.2f}")
+salário= float(input('Digite aqui o valor do seu salário:'))
+novo_salário= salário+salário*0.15
+print(f'Referente ao salário do funcionário de R${salário:.2f} o salário com aumento de 15% será R${novo_salário:.2f}!')
 
 
 
