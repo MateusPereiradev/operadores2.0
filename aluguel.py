@@ -1,10 +1,7 @@
-km= float(input('Digite aqui quantos km você rodou com o carro:'))
-dias= int(input('Digite aqui quantos dias você ficou com o carro:'))
-valor_km= km*0.15
-valor_dias= dias*60
-print(f'Referente aos km rodados por você, o valor a pagar é: R${valor_km:.2f}!')
-print(f'Referente aos dias que você ficou com o carro, o valor a pagar é : R${valor_dias:.2f}!')
-print(f'O valor total será: R${valor_km + valor_dias:.2f}!')
+km_percorridos= float(input('Digite a quantidade de Km percorridos:'))
+dias_alugados= int(input('Digite a quantidade de dias que o carro foi alugado:'))
+preco_total= (km_percorridos * 0.15) + (dias_alugados * 60)
+print(f'O preço total a pagar pelo aluguel do carro é de R${preco_total:.2f}!')
 
 '''
  escreva um programa que pergunte a quantidade de Km percorridos por um carro alugado e a quantidade de
